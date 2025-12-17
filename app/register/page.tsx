@@ -3,8 +3,8 @@ import { useSearchParams } from "next/navigation";
 import { register } from "../auth/action";
 
 export default function RegisterPage() {
-  const searchParams = useSearchParams();
-  const errorMessage = searchParams.get("error");
+  // const searchParams = useSearchParams();
+  // const errorMessage = searchParams.get("error");
   return (
     <div className="flex min-h-screen flex-col items-center justify-center p-6 bg-gray-50">
       <div className="w-full max-w-md bg-white p-8 rounded-lg shadow-md">
@@ -43,7 +43,7 @@ export default function RegisterPage() {
             >
               Register
             </button>
-            <div className="text-red-500 ">{errorMessage ? errorMessage : ""}</div>
+            {/* <div className="text-red-500 ">{errorMessage ? errorMessage : ""}</div> */}
           </div>
         </form>
       </div>
