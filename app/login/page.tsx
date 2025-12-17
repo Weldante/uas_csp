@@ -1,5 +1,3 @@
-"use client";
-import { useSearchParams } from "next/navigation";
 import { login } from "../auth/action";
 
 export default function LoginPage() {

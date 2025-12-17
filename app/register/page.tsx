@@ -1,5 +1,3 @@
-"use client";
-import { useSearchParams } from "next/navigation";
 import { register } from "../auth/action";
 
 export default function RegisterPage() {
